@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+
+</style>
 <body>
+    <p>Diện tích hình chữ nhật</p>
+    <label>
+        Chiều dài   <input type="number" id="width"><br>
+        Chiều rộng   <input type="number" id="heigh"><br>
+        Diện tích
+    </label>
     <script>
         var
-            a=prompt('nhập vào a')
-            b=prompt('nhập vào b')
-        c=a%b
-        if (c==0){
-            alert('a là bội số của b')
-        }
-        else {
-            alert('a không phải là bội số của b')
-        }
+            let width = parseInt('input Width');
+            let height = parseInt('input Heigh');
+        let area=width*height;
+
+        document.write("The area is: " + area);
     </script>
 </body>
 </html>
